@@ -1,8 +1,8 @@
-# 🎵 Musical Bridges
+# Musical Bridges
 
-Embark on a musical journey with Musical Bridges, a dynamic Spotify playlist generator that tailors playlists to your emotional state and suggests top tracks to elevate your listening experience.
+Musical Bridges is an innovative web application designed to help users navigate and manage their emotions through the power of music. Our app integrates with Spotify to create personalized playlists based on the user's current emotional state and intensity.
 
-## 📂 Navigating the Project
+## Navigating the Project
 Here's a glimpse into the structure of our music recommendation system:
 
 ```
@@ -42,13 +42,15 @@ music_recommendation_system/
 └── run.py
 ```
 
-## 🌟 Key Features
+## Key Features
 
-1. **Emotion-Driven Playlists**: Craft a playlist of 10-20 songs that resonate with your current mood.
-2. **Top Hits Highlight**: Returns the top 5 most popular songs from the generated playlist as embedded track links.
+- Added 30+ Emotions, covering all your needs throughout the day
+- User will now be able to describe their own emotional state for more accurate recommendation
+- Implement Kimi as our backend AI for analysing your current emotional state
+- Replace Spotify deprecated endpoints with the search endpoint to search songs and curate playlist on Spotify based on user’s emotion
 
 
-## 🧩 How It Works
+## How It Works
 
 ### Playlist Generation
 1. Our system scours the database for songs that align with your specified emotion.
@@ -65,23 +67,23 @@ music_recommendation_system/
 
 Musical Bridges is designed to prevent the filter bubble effect, where users might get stuck in a loop of similar music. By intentionally diversifying the genres in our recommendations, we ensure that you're exposed to a rich tapestry of music beyond your initial preferences. This approach aims to broaden your musical horizons and spark excitement in discovering new sounds.
 
-## 🛠 Usage Instructions
+## Usage Instructions
 Go to the current Musical Bridges official website https://musical-bridges-063243932240.herokuapp.com/ to check out!
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/RichardJiang-collab/musical-bridges/issues).
 
 
-## 📝 License
+## License
 
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 
-## 🎉 Acknowledgements
+## Acknowledgements
 
 - Thanks to Spotify for providing the API that makes this project possible.
 - Shoutout to all the music lovers who inspire projects like these!
 
-Happy listening! 🎧
+Happy listening!
